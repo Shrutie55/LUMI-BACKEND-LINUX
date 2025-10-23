@@ -1,0 +1,15 @@
+model/Testing
+.env
+object_detection.py
+decoded_image.jpg
+yolo*.pt
+__pycache__
+uploads
+myenva
+.venv/
+.dockerignore
+Dockerfile
+LUMIDATABASE.xlsx
+database.js
+database.py
+output.json

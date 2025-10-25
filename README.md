@@ -3,42 +3,67 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
 
 ✨ Features
 1. 📝 Reminders API
+   
    📌 Create, update, retrieve, and delete reminders.
+   
    ⚠️ Tag reminders as urgent or important.
+   
    🔔 Notifications triggered for scheduled reminders.
 2. 📸 Face Recognition API
+   
    👤 Identifies familiar faces using the face_recognition Python library.
+   
    📥 Accepts image input and returns recognition results.
+   
 3. 🔍 Object Detection API
+   
    🤖 Detects common household or personal objects using YOLO.
+   
    🏷️ Returns labels for detected objects from uploaded images.
+   
 4. 🌍 Location Tracking API
+   
    📍 Tracks and stores users’ live location updates.
+   
    🧭 Allows caregivers to monitor patient movements and receive alerts.
+   
 5. 💬 Real-time Chatroom (Flask-SocketIO)
+   
    🧑‍🤝‍🧑 Enables communication between caregivers and patients.
+   
    🔐 Secured using unique userID-based authentication and rooms.
+   
    📨 Integrated with Expo push notifications for urgent messages.
+   
 6. 🤖 Chatbot Support
+   
    🧠 Provides a built-in assistant to help elderly users perform tasks or answer questions.
+   
    🗣️ Accessible via the chat interface to enhance user experience.
 
 
 
 ⚙️ Technology Stack
 
-   🔙 Flask — REST API and Socket.IO support
-   🧠 face_recognition — Face detection and recognition
-   🕵️ YOLO — Object detection
-   📦 MongoDB — NoSQL database
-   🌐 Flask-SocketIO — Real-time bi-directional chat
-   ✨ Gemini / Custom AI model — For chatbot capabilities
-   🔐 Expo Push Notifications — For caregiver alerts and reminders
+   • 🔙 Flask — REST API and Socket.IO support
+   
+   • 🧠 face_recognition — Face detection and recognition
+   
+   • 🕵️ YOLO — Object detection
+   
+   • 📦 MongoDB — NoSQL database
+   
+   • 🌐 Flask-SocketIO — Real-time bi-directional chat
+   
+   • ✨ Gemini / Custom AI model — For chatbot capabilities
+   
+   • 🔐 Expo Push Notifications — For caregiver alerts and reminders
 
    
 🚀 Getting Started
 
    📋 Prerequisites
+   
    🐍 Python 3.x
    📦 Flask & Flask-SocketIO
    🗄️ MongoDB

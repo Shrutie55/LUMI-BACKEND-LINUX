@@ -23,7 +23,10 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
    🧠 Provides a built-in assistant to help elderly users perform tasks or answer questions.
    🗣️ Accessible via the chat interface to enhance user experience.
 
+
+
 ⚙️ Technology Stack
+
    🔙 Flask — REST API and Socket.IO support
    🧠 face_recognition — Face detection and recognition
    🕵️ YOLO — Object detection
@@ -31,8 +34,10 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
    🌐 Flask-SocketIO — Real-time bi-directional chat
    ✨ Gemini / Custom AI model — For chatbot capabilities
    🔐 Expo Push Notifications — For caregiver alerts and reminders
+
    
 🚀 Getting Started
+
    📋 Prerequisites
    🐍 Python 3.x
    📦 Flask & Flask-SocketIO
@@ -41,6 +46,7 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
    💬 Expo push notification token setup
    
 🔧 Installation
+
     git clone https://github.com/RaY8118/LUMI-Backend.git
     cd LUMI-Backend
 
@@ -50,13 +56,17 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
     pip install -r requirements.txt
 
 ⚙️ Configuration
+
     Create a .env file for database credentials, secret keys, and token configs.
     Set up YOLO model weights and config as per their documentation.
     
 ▶️ Run the server
+
     python run.py
+
     
 📡 API Endpoints
+
    📝 Reminders
       GET /reminders
       POST /reminders
@@ -74,21 +84,31 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
    🤖 Chatbot
       POST /assistant: Send a message to the AI assistant and receive a response
 
+
 🛠️ YOLO Model Setup
+
     Download weights (e.g. yolov10b.pt) and config files.
     Store them in a /model folder and load them via your object detection service.
+
+    
 📂 Folder Structure
+
     /app: Contains the core logic for features like reminders, location tracking, chat, and more. This includes the implementation of Flask Blueprints for modular API handling.
 
     /config: Holds the configuration settings for the application, including environment-specific variables and app settings.
 
     /uploads: Stores user-uploaded files, such as profile images or other media for the app.
 
+
 🤝 Contributing
+
     Fork the project
     Create a feature branch (git checkout -b feature/YourFeature)
     Commit your changes (git commit -m 'Add feature')
     Push to GitHub (git push origin feature/YourFeature)
     Open a Pull Request
+
+    
 📜 License
+
     This project is licensed under the Apache License 2.0. See the LICENSE file for full details.

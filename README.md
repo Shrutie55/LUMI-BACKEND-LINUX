@@ -1,7 +1,7 @@
 🧠 Lumi Alzheimer's and Elderly Care App - Backend (Flask API)
 This repository contains the backend code for the LUMI Alzheimer's and Elderly Care App 🧓👵. The backend powers all the core features such as reminders, face recognition, object detection, location tracking, real-time chat, and AI chatbot support. It is built using Flask and integrates with MongoDB, WebSocket, and AI models for intelligent support.
 
-✨ Features
+<h2>✨ Features</h2>
 1. 📝 Reminders API
    
    📌 Create, update, retrieve, and delete reminders.
@@ -43,7 +43,7 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
 
 
 
-⚙️ Technology Stack
+<h2>⚙️ Technology Stack</h2>
 
    • 🔙 Flask — REST API and Socket.IO support
    
@@ -58,9 +58,8 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
    • ✨ Gemini / Custom AI model — For chatbot capabilities
    
    • 🔐 Expo Push Notifications — For caregiver alerts and reminders
-
-   
-🚀 Getting Started
+  
+<h2>🚀 Getting Started </h2>
 
    📋 Prerequisites
    

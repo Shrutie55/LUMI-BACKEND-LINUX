@@ -2,6 +2,7 @@
 This repository contains the backend code for the LUMI Alzheimer's and Elderly Care App 🧓👵. The backend powers all the core features such as reminders, face recognition, object detection, location tracking, real-time chat, and AI chatbot support. It is built using Flask and integrates with MongoDB, WebSocket, and AI models for intelligent support.
 
 <h2>✨ Features</h2>
+
 1. 📝 Reminders API
    
    📌 Create, update, retrieve, and delete reminders.
@@ -9,6 +10,7 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
    ⚠️ Tag reminders as urgent or important.
    
    🔔 Notifications triggered for scheduled reminders.
+   
 2. 📸 Face Recognition API
    
    👤 Identifies familiar faces using the face_recognition Python library.
@@ -69,7 +71,7 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
    📷 YOLO model setup
    💬 Expo push notification token setup
    
-🔧 Installation
+<h2>🔧 Installation</h2>
 
     git clone https://github.com/RaY8118/LUMI-Backend.git
     cd LUMI-Backend
@@ -79,43 +81,49 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
 
     pip install -r requirements.txt
 
-⚙️ Configuration
+<h2>⚙️ Configuration</h2>
 
     Create a .env file for database credentials, secret keys, and token configs.
     Set up YOLO model weights and config as per their documentation.
     
-▶️ Run the server
+<h2>▶️ Run the server</h2>
 
     python run.py
 
     
-📡 API Endpoints
+<h2>📡 API Endpoints</h2>
 
-   📝 Reminders
+   <h3>📝 Reminders</h3>
+   
       GET /reminders
       POST /reminders
       PUT /reminders/:id
       DELETE /reminders/:id
-   📸 Face Recognition
+   <h3>📸 Face Recognition</h3>
+   
       POST /detect_faces
-   🔍 Object Detection
+   <h3>🔍 Object Detection</h3>
+   
       POST /detect_object
-   🌍 Location Tracking
+   <h3>🌍 Location Tracking</h3>
+   
       POST /location
-   💬 Chatroom
+   <h3>💬 Chatroom</h3>
+   
       WebSocket Endpoint: /chatroom
       Custom events for joining rooms, sending messages, and disconnecting
-   🤖 Chatbot
+   <h3>🤖 Chatbot</h3>
+   
       POST /assistant: Send a message to the AI assistant and receive a response
 
 
-🛠️ YOLO Model Setup
+<h2>🛠️ YOLO Model Setup</h2>
 
     Download weights (e.g. yolov10b.pt) and config files.
     Store them in a /model folder and load them via your object detection service.
 
     
-📂 Folder Structure
+<h2>📂 Folder Structure</h2>
 
     /app: Contains the core logic for features like reminders, location tracking, chat, and more. This includes the implementation of Flask Blueprints for modular API handling.
 
@@ -124,7 +132,7 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
     /uploads: Stores user-uploaded files, such as profile images or other media for the app.
 
 
-🤝 Contributing
+<h2>🤝 Contributing</h2>
 
     Fork the project
     Create a feature branch (git checkout -b feature/YourFeature)
@@ -133,6 +141,6 @@ This repository contains the backend code for the LUMI Alzheimer's and Elderly C
     Open a Pull Request
 
     
-📜 License
+<h2>📜 License</h2>
 
     This project is licensed under the Apache License 2.0. See the LICENSE file for full details.
